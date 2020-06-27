@@ -59,7 +59,7 @@
     * **Error Response:**
     
         **Code:** `404 NOT FOUND` (Caso algum parâmetro não seja inserido)<br />
-        **Content:** `{"timestamp": "current timestamp","status": 404,"error": "Not Found","message": "","path": "/autorizador/procedimento//idade/{idade}/sexo/{sexo}"}`
+        **Content:** `{"timestamp": "current timestamp","status": 404,"error": "Not Found","message": "","path": "/autorizador/cadastro/procedimento//idade/{idade}/sexo/{sexo}"}`
     
       OU
     
@@ -69,7 +69,7 @@
       OU
       
         **Code:** `400 BAD REQUEST` (Caso seja inserido algum parâmetro inválido)<br />
-        **Content:** `{"timestamp": "current timestamp","status": 400,"error": "Bad Request","message": "","path": "/autorizador/procedimento/INVALID_PARAM/idade/INVALID_PARAM/sexo/INVALID_PARAM"}`
+        **Content:** `{"timestamp": "current timestamp","status": 400,"error": "Bad Request","message": "","path": "/autorizador/cadastro/procedimento/INVALID_PARAM/idade/INVALID_PARAM/sexo/INVALID_PARAM"}`
     
     * **URL de exemplo:**
     
